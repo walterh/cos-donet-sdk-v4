@@ -12,8 +12,7 @@ using System.Threading;
 
 namespace QCloud.CosApi.Api
 {
-
-	class CosCloud
+	public class CosCloud
 	{
 		//文件大于8M时采用分片上传,小于等于8M时采用单文件上传
 		const int SLICE_UPLOAD_FILE_SIZE = 8 * 1024 * 1024;
